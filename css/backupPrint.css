@@ -1,0 +1,110 @@
+/* Print Styles */
+@media print {
+    /* General Print Styles */
+    body {
+        font-size: 10px; /* Smaller font size for print */
+        color: #000; /* Ensure text is black */
+        background: #fff; /* Ensure background is white */
+        margin: 0; /* Remove body margins */
+        padding: 0; /* Remove body padding */
+    }
+
+    .sidebar, .details_header, .social_section_1info, .print-btn, footer {
+        display: none; /* Hide non-essential elements including footer */
+    }
+
+    .main {
+        margin: 0; /* Remove margin */
+        padding: 10px; /* Minimal padding for content */
+    }
+
+    /* Adjustments for sections */
+    .company, .skills, .education {
+        page-break-inside: avoid; /* Prevent breaking inside sections */
+        margin-bottom: 5px; /* Reduce bottom margin */
+    }
+
+    .company_details, .skill_list, .education_details {
+        page-break-inside: avoid;
+    }
+
+    /* Font and Spacing Adjustments */
+    h1 {
+        font-size: 16px; /* Smaller heading size */
+        margin-bottom: 5px; /* Reduce margin below headings */
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-size: 14px; /* Smaller sub-heading sizes */
+        margin-bottom: 4px; /* Reduce margin below sub-headings */
+    }
+
+    p, ul, li {
+        font-size: 10px; /* Smaller body text */
+        line-height: 1.1; /* Tighten line height */
+        margin-bottom: 2px; /* Reduce space between paragraphs/lists */
+    }
+
+    /* Minimize padding and margins for essential sections */
+    .company, .skills, .education, .contact_info {
+        padding: 0; /* Remove padding */
+        margin: 0 0 5px 0; /* Minimal margins */
+    }
+
+    /* Ensure no page breaks within important sections */
+    .company_details, .skill_list, .education_details {
+        page-break-inside: avoid;
+    }
+
+    /* Compact Lists */
+    ul, li {
+        margin-left: 15px; /* Reduce list indentation */
+        padding-left: 0; /* Remove padding */
+    }
+
+    /* Header Adjustments */
+    .header {
+        margin-bottom: 10px; /* Reduce space below header */
+        padding-bottom: 5px; /* Reduce padding in header */
+        border-bottom: 1px solid #000; /* Optional: add a thin line for separation */
+    }
+
+    /* Compact Contact Information */
+    .contact_info {
+        font-size: 9px; /* Smaller contact info */
+        margin-bottom: 5px; /* Minimal margin below contact info */
+    }
+
+    /* Styles for Number and Email */
+    .contact_info .phone, .contact_info .email {
+        font-size: 10px; /* Slightly larger font size for visibility */
+        color: #000; /* Ensure text is black */
+        margin-bottom: 2px; /* Reduce space between them */
+        text-decoration: none; /* Remove underline for email links */
+    }
+
+    /* Overall Layout Adjustments */
+    .layout {
+        padding: 0; /* Remove padding around layout */
+        margin: 0; /* Remove margins around layout */
+    }
+
+    /* Adjusting columns or grids */
+    .column {
+        width: 100%; /* Ensure columns take full width */
+        padding: 0; /* Remove padding */
+        margin-bottom: 5px; /* Reduce margin below columns */
+    }
+
+    /* Page size adjustment for fitting on A4 */
+    @page {
+        size: A4; /* Set page size to A4 */
+        margin: 10mm; /* Set small margins to maximize content space */
+    }
+
+    /* Shrinking the content slightly if necessary */
+    body {
+        transform: scale(0.95); /* Scale content down slightly to fit */
+        transform-origin: top left; /* Ensure scaling doesn't cause alignment issues */
+    }
+}

@@ -1,0 +1,83 @@
+
+/* General Styles */
+.progress-one {
+    margin-bottom: 0.5rem; /* Reduced bottom margin */
+    padding: 0.5rem; /* Reduced padding */
+    border-radius: 4px; /* Smaller border radius */
+    background-color: #f9f9f9;
+    font-size: 0.75rem; /* Smaller font size */
+    position: relative; /* Position relative for positioning grade */
+}
+
+.progress-title {
+    font-size: 0.875rem; /* Smaller title font size */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.25rem; /* Reduced margin */
+}
+
+.progress-bar {
+    height: 10px; /* Smaller height */
+    border-radius: 4px; /* Smaller border radius */
+    transition: width 0.5s ease-in-out;
+    position: relative; /* Position relative for placing grade */
+    width: 70%; /* Adjust width for all progress bars */
+}
+
+.bg-danger {
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.2) 0%, rgba(255, 0, 0, 0.6) 100%);
+}
+
+.bg-info {
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.2) 0%, rgba(0, 255, 255, 0.6) 100%);
+}
+
+.progress-bar bold {
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.75rem; /* Smaller font size for percentage */
+}
+
+h6 {
+    font-size: 0.75rem; /* Smaller font size */
+    color: #555;
+    margin-bottom: 0.25rem; /* Reduced margin */
+}
+
+h4 bold {
+    font-size: 1rem; /* Bigger size for grade */
+    color: #333;
+    position: absolute; /* Absolute positioning for top-right */
+    top: -1rem; /* Adjust to position on top of the bar */
+    right: 0.5rem; /* Adjust to be within the container */
+    background: #fff; /* Optional: background color for readability */
+    padding: 0 0.25rem; /* Padding for readability */
+    border-radius: 4px; /* Rounded corners for the grade box */
+    font-weight: bold; /* Bold font weight */
+}
+
+.progress-one h4 bold {
+    font-size: 1.25rem; /* Larger size for grade */
+    color: #333; /* Ensure color matches */
+    position: absolute; /* Absolute positioning for top-right */
+    top: 1rem; /* Adjust to position on top of the bar */
+    right: 0.5rem; /* Adjust to be within the container */
+    background: #fff; /* Optional: background color for readability */
+    padding: 0 0.25rem; /* Padding for readability */
+    border-radius: 4px; /* Rounded corners for the grade box */
+    font-weight: bold; /* Bold font weight */
+}
+
+.progress-one h6 {
+    font-size: .90rem; /* Larger size for level names */
+    color: #666; /* Slightly darker color for readability */
+    font-weight: normal; /* Regular weight to keep it less bold */
+    margin-bottom: 0.5rem; /* Space below the level name */
+}
+
+@media print {
+    .progress-one {
+        font-size: 0.7rem; /* Further reduce font size for print */
+    }
+}
