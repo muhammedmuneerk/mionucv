@@ -75,250 +75,291 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </ul>
 
         </div>
-
         <div class="clearfix"></div>
     </div>
-    <div class="wrapper"></div>
-    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-        <div class="content">
-            <div class="details_header">
-                <ul>
-                    <li><a href="index.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Resume</a>
+
+
+    <div class="wrapper">
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="content">
+                <div class="details_header">
+                    <ul>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-file"
+                                    aria-hidden="true"></span>Resume</a>
+                        </li>
+                        <li><a href="#" onclick="printPage()"><span class="glyphicon glyphicon-print"
+                                    aria-hidden="true"></span>Print CV</a></li>
+                        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"
+                                    aria-hidden="true"></span>Email me</a></li>
+                        <li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span
+                                    class="glyphicon glyphicon-picture" aria-hidden="true"></span>View photo</a></li>
+                    </ul>
+                </div>
+
+                <!-- Dialog -->
+                <div id="small-dialog" class="mfp-hide">
+                    <button class="mfp-close">×</button> <!-- Close Button -->
+
+                    <img src="images\photo_2024-08-22_15-46-56 (3)squair .jpg" alt="" /><!--marked-->
+                    <img src="images\photo_2024-08-22_15-47-00squair1642.jpg" alt="" /><!--marked-->
+                    <img src="images\photo_2024-08-22_15-47-24 (6)squair .jpg" alt="" /><!--marked-->
+
+
+                </div>
+
+                <script>
+                    $(document).ready(function () {
+                        $('.popup-with-zoom-anim').magnificPopup({
+                            type: 'inline',
+                            fixedContentPos: false,
+                            fixedBgPos: true,
+                            overflowY: 'auto',
+                            closeBtnInside: true,
+                            preloader: false,
+                            midClick: true,
+                            removalDelay: 300,
+                            mainClass: 'my-mfp-zoom-in'
+                        });
+                    });
+
+                    function printPage() {
+                        window.print();
+                    }
+                </script>
+
+
+                <!-- Content continues here -->
+                <!-------------------------------------------------------------------------->
+                <div class="company">
+                    <p class="print-number" style="display: none;">+91 6909198397</p>
+                    <h3 class="clr1">Summary</h3>
+                    <div class="company_details">
+                        <b>My name is Mary Mionu Bhagwar,</b>
+                        <h6>Restaurant Captain</h6>
+                        <i>
+                            I'm a passionate and experienced restaurant captain with a love for creating memorable
+                            dining
+                            experiences.
+                            With a background in the food and hospitality industry,
+                            I thrive in fast-paced environments and enjoy leading teams to deliver exceptional service.
+                            <br>
+                            I believe that a successful business is built on a foundation of strong leadership,
+                            effective
+                            communication, and attention to detail.
+                            I strive to create a positive work culture where team members feel valued and motivated to
+                            provide top-notch customer service.
+                        </i>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------>
+
+
+                <div class="company">
+                    <h3 class="clr1">Previous Employment</h3>
+                    <div class="company_details">
+                        <h4>Arco Heritage Village And Farm House - Kerala, India <span>FEBRUARY 2022 - Current</span>
+                        </h4>
+                        <h6>Restaurant Captain</h6>
+                        <p class="cmpny1">
+                        <ul>
+                            <li>Greeted and welcomed guests to the restaurant.</li>
+                            <li>Trained new hires on restaurant operations such as order-taking processes, POS systems
+                                usage.</li>
+                            <li>Monitored customer service standards and provided feedback to staff when necessary.</li>
+                            <li>Managed inventory levels by accurately tracking stock levels and ordering supplies as
+                                needed.</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="company_details">
+                        <h4>Q nine restaurant - Kerala, India. <span>JANUARY 2019 - DECEMBER 2021</span></h4>
+                        <h6>Restaurant Captain</h6>
+                        <p class="cmpny1">
+                        <ul>
+                            <li>Performed daily opening, closing duties such as setting up the dining room, bar area
+                                prior
+                                to opening time.</li>
+                            <li>Provided support and guidance to team members, ensuring that quality standards were met.
+                            </li>
+                            <li>Helped create promotional materials for upcoming events or specials at the restaurant.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3 class="clr2">Professional skills</h3>
+                    <div class="skill_list">
+                        <div class="skill1">
+                            <ul>
+                                <li>Food Preparation</li>
+                                <li>Beverage Service</li>
+                                <li>Team training and development</li>
+                                <li>Workflow Coordination</li>
+                                <li>Order Accuracy and Staff Scheduling</li>
+                                <li>Tableside Service</li>
+                                <li>Upselling strategies</li>
+                            </ul>
+                        </div>
+                        <div class="skill2">
+                            <ul>
+                                <li>Reservation Management</li>
+                                <li>Guest Relations</li>
+                                <li>Food Safety Standards</li>
+                                <li>Food handling</li>
+                                <li>Table Setting</li>
+                                <li>Upselling</li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3 class="clr3">Education</h3>
+                    <div class="education_details">
+                        <h4>Government HIGHER SECONDARY SCHOOL - Dimapur</h4>
+                        <!--<span>JANUARY 2004 - OCTOBER 2009</span>-->
+                        <!-- <h6>MAJOR PHD</h6> -->
+                        <!-- <p class="cmpny1">Nulla volutpat at est sed ultricies. In ac sem consequat, posuere nulla varius, molestie lorem. Duis quis nibh leo.
+                Curabitur a quam eu mi convallis auctor nec id mauris. Nullam mattis turpis eu turpis tincidunt, et pellentesque leo imperdiet.
+                Vivamus malesuada, sem laoreet dictum pulvinar, orci lectus rhoncus sapien, ut consectetur augue nibh in neque. In tincidunt sed enim et tincidunt.</p> -->
+                        <div>&nbsp;</div>
+                        <div class="col-sm-12 offset-lg-1">
+                            <!-- <h4>Other Professions</h4> -->
+                            <!-- <p>I also an <strong>Entrepreneur,Investor,Film producer,</strong> and i have degree in <strong>physics, economics</strong></p> -->
+                            <!-- <h4 class="mt-4">Skills & Abilities</h4> -->
+                            <div class="progress-one mt-2">
+                                <h4 class="progress-title">Hindi:</h4>
+                                <h6>Upper Intermediate</h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%;"
+                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                        <span>80%</span>
+                                    </div>
+                                    <h4>
+                                        <bold>B2</bold>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="progress-one mt-2">
+                                <h4 class="progress-title">Malayalam:</h4>
+                                <h6>Intermediate</h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <span>60%</span>
+                                    </div>
+                                    <h4>
+                                        <bold>B1</bold>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="progress-one mt-2">
+                                <h4 class="progress-title">English:</h4>
+                                <h6>Advanced</h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 90%;"
+                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                        <span>90%</span>
+                                    </div>
+                                    <h4>
+                                        <bold>C1</bold>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="progress-one mt-2">
+                                <h4 class="progress-title">Nagamese:</h4>
+                                <h6>Proficient</h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 100%;"
+                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                        <span>100%</span>
+                                    </div>
+                                    <h4>
+                                        <bold>C2</span></bold>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <hr style="width: 109%; height: 10px; background-color: rgb(56,56,56); border: none;">
+        <!-- rgb(105,105,105) -->
+        <!-- <hr style="width: 50%; height: 2px; background-color: black; border: none; margin: 20px auto;"> -->
+
+
+        <div class="footer">
+            <div class="col-lg-12 item-center copy-right p-0 text-lg-right ">
+                <p class="no-print">Follow me on social media</p>
+                <!--
+                "Connect with Us on Social Media"
+                "Follow Our Updates on Social Media"
+                "Stay Connected on Social Media"
+                "Join Us on Social Media"
+                -->
+                <ul class="social_section_1info">
+                    <li class="mb-2 facebook">
+                        <a href="https://www.facebook.com/muneer.k.161" aria-label="Facebook">
+                            <span class="fa fa-facebook"></span>
+                        </a>
                     </li>
-                    <li><a href="#" onclick="printPage()"><span class="glyphicon glyphicon-print"
-                                aria-hidden="true"></span>Print CV</a></li>
-                    <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"
-                                aria-hidden="true"></span>Email me</a></li>
-                    <li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span
-                                class="glyphicon glyphicon-picture" aria-hidden="true"></span>View photo</a></li>
+                    <li class="mb-2 linkedin">
+                        <a href="https://www.linkedin.com/in/muhammed-muneer-k-8185b6262" aria-label="LinkedIn">
+                            <span class="fa fa-linkedin"></span>
+                        </a>
+                    </li>
+                    <li class="mb-2 whatsapp">
+                        <a href="https://wa.me/916909198397" aria-label="WhatsApp">
+                            <span class="fa fa-whatsapp"></span>
+                        </a>
+                    </li>
+                    <li class="mb-2 instagram">
+                        <a href="https://www.instagram.com/mmk223mionu/" aria-label="Instagram">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                    </li>
+                    <li class="mb-2 twitter">
+                        <a href="https://twitter.com/Muhammed200517" aria-label="Twitter">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                    </li>
                 </ul>
             </div>
 
-            <!-- Dialog -->
-            <div id="small-dialog" class="mfp-hide">
-                <button class="mfp-close">×</button> <!-- Close Button -->
-
-                <img src="images\photo_2024-08-22_15-46-56 (3)squair .jpg" alt="" /><!--marked-->
-                <img src="images\photo_2024-08-22_15-47-00squair1642.jpg" alt="" /><!--marked-->
-                <img src="images\photo_2024-08-22_15-47-24 (6)squair .jpg" alt="" /><!--marked-->
-
-
+            <div class="copywrite col-lg-12 no-print p-0 text-lg-right" style="padding-bottom: 20px;">
+                <p>&copy; 2024 Mary Mionu Bhagwar. All Rights Reserved | Design by Muneer (MMK)</p>
             </div>
 
-            <script>
-                $(document).ready(function () {
-                    $('.popup-with-zoom-anim').magnificPopup({
-                        type: 'inline',
-                        fixedContentPos: false,
-                        fixedBgPos: true,
-                        overflowY: 'auto',
-                        closeBtnInside: true,
-                        preloader: false,
-                        midClick: true,
-                        removalDelay: 300,
-                        mainClass: 'my-mfp-zoom-in'
-                    });
-                });
-
-                function printPage() {
-                    window.print();
-                }
-            </script>
-
-            <!-- Content continues here -->
-            <!-------------------------------------------------------------------------->
-            <div class="company">
-                <p class="print-number" style="display: none;">+91 6909198397</p>
-                <h3 class="clr1">Summary</h3>
-                <div class="company_details">
-                    <b>My name is Mary Mionu Bhagwar,</b>
-                    <h6>Restaurant Captain</h6>
-                    <i>
-                        I'm a passionate and experienced restaurant captain with a love for creating memorable dining
-                        experiences.
-                        With a background in the food and hospitality industry,
-                        I thrive in fast-paced environments and enjoy leading teams to deliver exceptional service.
-                        <br>
-                        I believe that a successful business is built on a foundation of strong leadership, effective
-                        communication, and attention to detail.
-                        I strive to create a positive work culture where team members feel valued and motivated to
-                        provide top-notch customer service.
-                    </i>
+            <!-- <div class="footer">
+                <div class="col-lg-12 item-center copy-right p-0 text-lg-right">
+                    <p>&copy; 2024 Mary Mionu Bhagwar. All rights reserved. | Customization and Development by Muneer (MMK)</p>
+                    <p>Template by <a href="http://w3layouts.com" target="_blank" rel="noopener noreferrer">W3Layouts</a> | <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0 License</a></p>
                 </div>
-            </div>
-            <!------------------------------------------------------------------------------------>
-
-
-            <div class="company">
-                <h3 class="clr1">Previous Employment</h3>
-                <div class="company_details">
-                    <h4>Arco Heritage Village And Farm House - Kerala, India <span>FEBRUARY 2022 - Current</span></h4>
-                    <h6>Restaurant Captain</h6>
-                    <p class="cmpny1">
-                    <ul>
-                        <li>Greeted and welcomed guests to the restaurant.</li>
-                        <li>Trained new hires on restaurant operations such as order-taking processes, POS systems
-                            usage.</li>
-                        <li>Monitored customer service standards and provided feedback to staff when necessary.</li>
-                        <li>Managed inventory levels by accurately tracking stock levels and ordering supplies as
-                            needed.</li>
-                    </ul>
-                    </p>
-                </div>
-                <div class="company_details">
-                    <h4>Q nine restaurant - Kerala, India. <span>JANUARY 2019 - DECEMBER 2021</span></h4>
-                    <h6>Restaurant Captain</h6>
-                    <p class="cmpny1">
-                    <ul>
-                        <li>Performed daily opening, closing duties such as setting up the dining room, bar area prior
-                            to opening time.</li>
-                        <li>Provided support and guidance to team members, ensuring that quality standards were met.
-                        </li>
-                        <li>Helped create promotional materials for upcoming events or specials at the restaurant.</li>
-                    </ul>
-                    </p>
-                </div>
-            </div>
-            <div class="skills">
-                <h3 class="clr2">Professional skills</h3>
-                <div class="skill_list">
-                    <div class="skill1">
-                        <ul>
-                            <li>Food Preparation</li>
-                            <li>Beverage Service</li>
-                            <li>Team training and development</li>
-                            <li>Workflow Coordination</li>
-                            <li>Order Accuracy and Staff Scheduling</li>
-                            <li>Tableside Service</li>
-                            <li>Upselling strategies</li>
-                        </ul>
-                    </div>
-                    <div class="skill2">
-                        <ul>
-                            <li>Reservation Management</li>
-                            <li>Guest Relations</li>
-                            <li>Food Safety Standards</li>
-                            <li>Food handling</li>
-                            <li>Table Setting</li>
-                            <li>Upselling</li>
-                        </ul>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="education">
-                <h3 class="clr3">Education</h3>
-                <div class="education_details">
-                    <h4>Government HIGHER SECONDARY SCHOOL - Dimapur</h4>
-                    <!--<span>JANUARY 2004 - OCTOBER 2009</span>-->
-                    <!-- <h6>MAJOR PHD</h6> -->
-                    <!-- <p class="cmpny1">Nulla volutpat at est sed ultricies. In ac sem consequat, posuere nulla varius, molestie lorem. Duis quis nibh leo.
-                Curabitur a quam eu mi convallis auctor nec id mauris. Nullam mattis turpis eu turpis tincidunt, et pellentesque leo imperdiet.
-                Vivamus malesuada, sem laoreet dictum pulvinar, orci lectus rhoncus sapien, ut consectetur augue nibh in neque. In tincidunt sed enim et tincidunt.</p> -->
-                    <div>&nbsp;</div>
-                    <div class="col-sm-12 offset-lg-1">
-                        <!-- <h4>Other Professions</h4> -->
-                        <!-- <p>I also an <strong>Entrepreneur,Investor,Film producer,</strong> and i have degree in <strong>physics, economics</strong></p> -->
-                        <!-- <h4 class="mt-4">Skills & Abilities</h4> -->
-                        <div class="progress-one mt-2">
-                            <h4 class="progress-title">Hindi:</h4>
-                            <h6>Upper Intermediate</h6>
-                            <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 80%;"
-                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                    <span>80%</span>
-                                </div>
-                                <h4>
-                                    <bold>B2</bold>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="progress-one mt-2">
-                            <h4 class="progress-title">Malayalam:</h4>
-                            <h6>Intermediate</h6>
-                            <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;"
-                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                    <span>60%</span>
-                                </div>
-                                <h4>
-                                    <bold>B1</bold>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="progress-one mt-2">
-                            <h4 class="progress-title">English:</h4>
-                            <h6>Advanced</h6>
-                            <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 90%;"
-                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                    <span>90%</span>
-                                </div>
-                                <h4>
-                                    <bold>C1</bold>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="progress-one mt-2">
-                            <h4 class="progress-title">Nagamese:</h4>
-                            <h6>Proficient</h6>
-                            <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 100%;"
-                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                    <span>100%</span>
-                                </div>
-                                <h4>
-                                    <bold>C2</span></bold>
-                            </div>
-                        </div>
-
-
-
-
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div>&nbsp;</div>
-
             
-
-
+                <br>
+            
+                <div class="copywrite col-lg-12 no-print p-0 text-lg-right">
+                    <p>&copy; 2024 Mary Mionu Bhagwar. All Rights Reserved | Designed and Developed by Muneer (MMK)</p>
+                </div>
+            </div>
+             -->
 
 
         </div>
 
- 
-
-<hr style="width: 109%; height: 10px; background-color: rgb(56,56,56); border: none;">
-            <!-- rgb(105,105,105) -->
-
-            <!-- <hr style="width: 50%; height: 2px; background-color: black; border: none; margin: 20px auto;"> -->
-
-
-
-
- 
 
 
     </div>
 
-
-
-
-
-
-
-
-
-
-    <!-- <footer>
-        <div class="col-lg-3 copy-right p-0 text-lg-right">
-            <p>&copy; 2024 Mary Mionu Bhagwar. All Rights Reserved | Design by Mary Mionu Bhagwar</p>
-        </div>
-    </footer> -->
 </body>
 
 </html>
